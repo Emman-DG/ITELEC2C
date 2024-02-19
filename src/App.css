@@ -23,11 +23,25 @@ h1 {
 .TopBar a:visited {
   text-decoration: none;
 }
+.TopBar p {
+  text-decoration: none;
+  color: #fff;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  float: right;
+}
+
+.disabled {
+  color: #888;
+  filter: grayscale();
+  opacity: 0.3;
+}
 
 .header {
   background-color: #000000;
   padding-top: 5px;
-  padding-bottom: 1%;
+  padding-bottom: 20px;
 }
 
 .spic {
